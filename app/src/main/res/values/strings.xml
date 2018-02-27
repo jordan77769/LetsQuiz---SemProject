@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Let\'sQuiz</string>
+    <string name="button_login">Log-In</string>
+    <string name="button_signup">Sign-Up</string>
+    <string name="info_createAccount">Create an account to save your quizzes that you have made.</string>
+    <string name="info_signup">Don\'t have an account? Sign-up for one</string>
+    <string name="lblUserAccount">User Account</string>
+    <string name="button_userAccount">User Account</string>
+    <string name="button_chooseTopic">Choose a Topic</string>
+    <string name="button_userCreated">Choose a user-created topic</string>
+    <string name="button_viewCreatedQuizzes">View Created Quizzes</string>
+    <string name="button_changeUser">Change Username</string>
+    <string name="button_changePassword">Change Password</string>
+    <string name="button_goBack">Go Back</string>
+    <string name="lblChooseATopic">Choose A Topic</string>
+    <string name="button_Topic1">Topic 1</string>
+    <string name="button_Topic2">Topic 2</string>
+    <string name="button_Topic3">Topic 3</string>
+    <string name="button_Topic4">Topic 4</string>
+    <string name="textView_UserCreatedTopics">Choose a User-Created Topic</string>
+    <string name="button_UserTopic1">User Topic 1</string>
+    <string name="button_UserTopic2">User Topic 2</string>
+    <string name="button_UserTopic3">User Topic 3</string>
+    <string name="button_UserTopic4">User Topic 4</string>
+    <string name="button_Answer1">Answer 1</string>
+    <string name="button_Answer2">Answer 2</string>
+    <string name="button_Answer3">Answer 3</string>
+    <string name="button_Answer4">Answer 4</string>
+    <string name="textView_Question">This is where the question will go.</string>
+</resources>
