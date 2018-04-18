@@ -21,6 +21,19 @@
         <activity android:name=".ChooseTopic" />
         <activity android:name=".UserCreatedTopics" />
         <activity android:name=".QuizPage"></activity>
+        <activity android:name=".VideoGames"></activity>
+        <activity android:name=".QuizPageQuestion2"></activity>
+        <activity android:name=".DCQuizPage"></activity>
+        <activity android:name=".QuizPageQuestion3"></activity>
+        <activity android:name=".DCQuizPageQuestion2"></activity>
+        <activity android:name=".DCQuizPageQuestion3"></activity>
+        <activity android:name=".StarWarsQuizPage"></activity>
+        <activity android:name=".StarWarsQuizPageQuestion2"></activity>
+        <activity android:name=".StarWarsQuizPageQuestion3"></activity>
+        <activity android:name=".VideoGamesQuizPageQuestion2"></activity>
+        <activity android:name=".VideoGamesQuizPageQuestion3"></activity>
+
+
     </application>
 
 </manifest>

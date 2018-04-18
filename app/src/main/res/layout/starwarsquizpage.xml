@@ -4,64 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jtors.letsquiz.QuizPage">
+    tools:context="com.example.jtors.letsquiz.StarWarsQuizPage">
 
     <TextView
-        android:id="@+id/textView_Question"
+        android:id="@+id/textView_StarWarsQuestion1"
         android:layout_width="306dp"
         android:layout_height="183dp"
-        android:text="@string/textView_Question1Topic1"
+        android:text="@string/textView_StarWarsQuestion1"
         android:textAlignment="center"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="111dp" />
+        tools:layout_editor_absoluteY="111dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button_Question1Answer1"
+        android:id="@+id/button_StarWarsQuestion1Answer1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="72dp"
         android:layout_marginTop="52dp"
-        android:text="@string/button_Topic1Question1Answer1"
-        app:layout_constraintEnd_toStartOf="@+id/button_Question1Answer2"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Question"
+        android:text="@string/button_StarWarsAnswer1"
+        app:layout_constraintEnd_toStartOf="@+id/button_StarWarsQuestion1Answer2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_StarWarsQuestion1"
         android:layout_marginRight="72dp" />
 
     <Button
-        android:id="@+id/button_Question1Answer2"
+        android:id="@+id/button_StarWarsQuestion1Answer2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="68dp"
         android:layout_marginTop="52dp"
-        android:text="@string/button_Topic1Question1Answer2"
+        android:text="@string/button_StarWarsAnswer2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Question"
+        app:layout_constraintTop_toBottomOf="@+id/textView_StarWarsQuestion1"
         android:layout_marginRight="68dp" />
 
     <Button
-        android:id="@+id/button_Question1Answer3"
+        android:id="@+id/button_StarWarsQuestion1Answer3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="@string/button_Topic1Question1Answer3"
-        app:layout_constraintEnd_toStartOf="@+id/button_Question1Answer4"
+        android:text="@string/button_StarWarsAnswer3"
+        app:layout_constraintEnd_toStartOf="@+id/button_StarWarsQuestion1Answer4"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_Question1Answer1"
+        app:layout_constraintTop_toBottomOf="@+id/button_StarWarsQuestion1Answer1"
         android:layout_marginRight="20dp" />
 
     <Button
-        android:id="@+id/button_Question1Answer4"
+        android:id="@+id/button_StarWarsQuestion1Answer4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="72dp"
         android:layout_marginTop="40dp"
-        android:text="@string/button_Topic1Question1Answer4"
+        android:text="@string/button_StarWarsAnswer4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_Question1Answer2"
+        app:layout_constraintTop_toBottomOf="@+id/button_StarWarsQuestion1Answer2"
         android:layout_marginRight="72dp" />
 </android.support.constraint.ConstraintLayout>

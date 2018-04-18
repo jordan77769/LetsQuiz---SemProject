@@ -25,7 +25,7 @@ public class ChooseTopic extends AppCompatActivity {
         topic2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ChooseTopic.this, QuizPage.class));
+                startActivity(new Intent(ChooseTopic.this, DCQuizPage.class));
             }
         });
 
@@ -33,7 +33,7 @@ public class ChooseTopic extends AppCompatActivity {
         topic3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ChooseTopic.this, QuizPage.class));
+                startActivity(new Intent(ChooseTopic.this, StarWarsQuizPage.class));
             }
         });
 
@@ -41,7 +41,7 @@ public class ChooseTopic extends AppCompatActivity {
         topic4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ChooseTopic.this, QuizPage.class));
+                startActivity(new Intent(ChooseTopic.this, VideoGames.class));
             }
         });
     }

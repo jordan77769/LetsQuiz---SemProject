@@ -12,19 +12,92 @@
     <string name="button_changeUser">Change Username</string>
     <string name="button_changePassword">Change Password</string>
     <string name="button_goBack">Go Back</string>
+
     <string name="lblChooseATopic">Choose A Topic</string>
-    <string name="button_Topic1">Topic 1</string>
-    <string name="button_Topic2">Topic 2</string>
-    <string name="button_Topic3">Topic 3</string>
-    <string name="button_Topic4">Topic 4</string>
+    <string name="button_Topic1">Marvel</string>
+    <string name="button_Topic2">DC</string>
+    <string name="button_Topic3">Star Wars</string>
+    <string name="button_Topic4">Video Games</string>
+
     <string name="textView_UserCreatedTopics">Choose a User-Created Topic</string>
     <string name="button_UserTopic1">User Topic 1</string>
     <string name="button_UserTopic2">User Topic 2</string>
     <string name="button_UserTopic3">User Topic 3</string>
     <string name="button_UserTopic4">User Topic 4</string>
-    <string name="button_Answer1">Answer 1</string>
-    <string name="button_Answer2">Answer 2</string>
-    <string name="button_Answer3">Answer 3</string>
-    <string name="button_Answer4">Answer 4</string>
-    <string name="textView_Question">This is where the question will go.</string>
+
+    <string name="button_Topic1Question1Answer1">Batman</string>
+    <string name="button_Topic1Question1Answer2">Iron-Man</string>
+    <string name="button_Topic1Question1Answer3">Superman</string>
+    <string name="button_Topic1Question1Answer4">Green Arrow</string>
+
+    <string name="button_Topic1Question2Answer1">Barry Allen</string>
+    <string name="button_Topic1Question2Answer2">Tony Stark</string>
+    <string name="button_Topic1Question2Answer3">Steve Rogers</string>
+    <string name="button_Topic1Question2Answer4">Bruce Banner</string>
+
+    <string name="button_Topic1Question3Answer1">The Avengers</string>
+    <string name="button_Topic1Question3Answer2">Fantastic Four</string>
+    <string name="button_Topic1Question3Answer3">X-Men</string>
+    <string name="button_Topic1Question3Answer4">The Justice League</string>
+
+    <string name="textView_Question1Topic1">Who is a member of the Avengers?</string>
+    <string name="textView_Question2Topic1">Which of these characters is Captain America?</string>
+    <string name="textView_Question3Topic1">Which team does Wolverine belong to?</string>
+
+    <string name="textView_DCQuestion1">Which is not a member of the Justice League?</string>
+    <string name="textView_DCQuestion2">Which of these characters is Batman?</string>
+    <string name="textView_DCQuestion3">Who is Clark Kents\' alter-ego?</string>
+
+    <string name="button_DCAnswer1">Batman</string>
+    <string name="button_DCAnswer2">Wonder Woman</string>
+    <string name="button_DCAnswer3">Spider-Man</string>
+    <string name="button_DCAnswer4">Superman</string>
+
+    <string name="button_Topic2Question2Answer1">Peter Parker</string>
+    <string name="button_Topic2Question2Answer2">Bruce Banner</string>
+    <string name="button_Topic2Question2Answer3">Clark Kent</string>
+    <string name="button_Topic2Question2Answer4">Bruce Wayne</string>
+
+    <string name="button_Topic2Question3Answer1">Captain America</string>
+    <string name="button_Topic2Question3Answer2">Doctor Strange</string>
+    <string name="button_Topic2Question3Answer3">Superman</string>
+    <string name="button_Topic2Question3Answer4">Batman</string>
+
+    <string name="textView_StarWarsQuestion1">What color was Luke Skywalker\s first lightsaber?</string>
+    <string name="textView_StarWarsQuestion2">Who is Darth Vader?</string>
+    <string name="textView_StarWarsQuestion3">Who destroyed the first Death Star?</string>
+
+    <string name="button_StarWarsAnswer1">Pink</string>
+    <string name="button_StarWarsAnswer2">Purple</string>
+    <string name="button_StarWarsAnswer3">Blue</string>
+    <string name="button_StarWarsAnswer4">Yellow</string>
+
+    <string name="button_Topic3Question2Answer1">Anakin Skywalker</string>
+    <string name="button_Topic3Question2Answer2">Obi-Wan Kenobi</string>
+    <string name="button_Topic3Question2Answer3">Yoda</string>
+    <string name="button_Topic3Question2Answer4">Spock</string>
+
+    <string name="button_Topic3Question3Answer1">Jar Jar Binks</string>
+    <string name="button_Topic3Question3Answer2">Han Solo</string>
+    <string name="button_Topic3Question3Answer3">Luke Skywalker</string>
+    <string name="button_Topic3Question3Answer4">Captain Rex</string>
+
+    <string name="textView_VideoGamesQuestion1">Which of these characters are only on Playstation?</string>
+    <string name="textView_VideoGamesQuestion2">NES was short for what?</string>
+    <string name="textView_VideoGamesQuestion3">Who is the main character in the Halo Series?</string>
+
+    <string name="button_VideoGamesAnswer1">Master Chief</string>
+    <string name="button_VideoGamesAnswer2">Nathan Drake</string>
+    <string name="button_VideoGamesAnswer3">Chell</string>
+    <string name="button_VideoGamesAnswer4">Sam Fisher</string>
+
+    <string name="button_Topic4Question2Answer1">Never Ending Simulation</string>
+    <string name="button_Topic4Question2Answer2">New Enterprise System</string>
+    <string name="button_Topic4Question2Answer3">Not Ever Still</string>
+    <string name="button_Topic4Question2Answer4">Nintendo Entertainment System</string>
+
+    <string name="button_Topic4Question3Answer1">Nathan Drake</string>
+    <string name="button_Topic4Question3Answer2">Master Chief</string>
+    <string name="button_Topic4Question3Answer3">Ratchet</string>
+    <string name="button_Topic4Question3Answer4">Sam Fisher</string>
 </resources>
