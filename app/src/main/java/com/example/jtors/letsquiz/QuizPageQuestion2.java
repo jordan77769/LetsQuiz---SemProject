@@ -11,37 +11,37 @@ public class QuizPageQuestion2 extends AppCompatActivity
 {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_page);
+        setContentView(R.layout.quizpagequestion2);
 
-        Button Question2answer1 = (Button)findViewById(R.id.button_Question2Answer1);
-        Question2answer1.setOnClickListener(new View.OnClickListener() {
+        Button Question2Answer1 = (Button)findViewById(R.id.button_Question2Answer1);
+        Question2Answer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(QuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(QuizPageQuestion2.this, QuizPageQuestion2.class));
             }
         });
 
-        Button Question2answer2 = (Button)findViewById(R.id.button_Question2Answer2);
-        Question2answer2.setOnClickListener(new View.OnClickListener() {
+        Button Question2Answer2 = (Button)findViewById(R.id.button_Question2Answer2);
+        Question2Answer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(QuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(QuizPageQuestion2.this, QuizPageQuestion2.class));
             }
         });
 
-        Button Question2answer3 = (Button)findViewById(R.id.button_Question2Answer3);
-        Question2answer3.setOnClickListener(new View.OnClickListener() {
+        Button Question2Answer3 = (Button)findViewById(R.id.button_Question2Answer3);
+        Question2Answer3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(QuizPageQuestion2.this, QuizPageQuestion3.class));
             }
         });
 
-        Button Question2answer4 = (Button)findViewById(R.id.button_Question2Answer4);
-        Question2answer4.setOnClickListener(new View.OnClickListener() {
+        Button Question2Answer4 = (Button)findViewById(R.id.button_Question2Answer4);
+        Question2Answer4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(QuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(QuizPageQuestion2.this, QuizPageQuestion2.class));
             }
         });
     }

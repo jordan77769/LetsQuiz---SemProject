@@ -13,32 +13,33 @@ public class QuizPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_page);
 
-        Button Question1answer1 = (Button)findViewById(R.id.button_Question1Answer1);
-        Question1answer1.setOnClickListener(new View.OnClickListener() {
+
+        Button Question1Answer1 = (Button)findViewById(R.id.button_Question1Answer1);
+        Question1Answer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(QuizPage.this, QuizPage.class));
             }
         });
 
-        Button Question1answer2 = (Button)findViewById(R.id.button_Question1Answer2);
-        Question1answer2.setOnClickListener(new View.OnClickListener() {
+        Button Question1Answer2 = (Button)findViewById(R.id.button_Question1Answer2);
+        Question1Answer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(QuizPage.this, QuizPageQuestion2.class));
             }
         });
 
-        Button Question1answer3 = (Button)findViewById(R.id.button_Question1Answer3);
-        Question1answer3.setOnClickListener(new View.OnClickListener() {
+        Button Question1Answer3 = (Button)findViewById(R.id.button_Question1Answer3);
+        Question1Answer3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(QuizPage.this, QuizPage.class));
             }
         });
 
-        Button Question1answer4 = (Button)findViewById(R.id.button_Question1Answer4);
-        Question1answer4.setOnClickListener(new View.OnClickListener() {
+        Button Question1Answer4 = (Button)findViewById(R.id.button_Question1Answer4);
+        Question1Answer4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(QuizPage.this, QuizPage.class));

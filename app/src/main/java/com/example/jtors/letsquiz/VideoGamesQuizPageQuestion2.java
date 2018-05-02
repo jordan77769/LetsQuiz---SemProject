@@ -14,37 +14,37 @@ public class VideoGamesQuizPageQuestion2 extends AppCompatActivity{
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_page);
+        setContentView(R.layout.videogamesquizpagequestion2);
 
-        Button VideoGamesQuestion2answer1 = (Button)findViewById(R.id.button_VideoGamesQuestion2Answer1);
-        VideoGamesQuestion2answer1.setOnClickListener(new View.OnClickListener() {
+        Button VideoGamesQuestion2Answer1 = (Button)findViewById(R.id.button_VideoGamesQuestion2Answer1);
+        VideoGamesQuestion2Answer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(VideoGamesQuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(VideoGamesQuizPageQuestion2.this, VideoGamesQuizPageQuestion2.class));
             }
         });
 
-        Button VideoGamesQuestion2answer2 = (Button)findViewById(R.id.button_VideoGamesQuestion2Answer2);
-        VideoGamesQuestion2answer2.setOnClickListener(new View.OnClickListener() {
+        Button VideoGamesQuestion2Answer2 = (Button)findViewById(R.id.button_VideoGamesQuestion2Answer2);
+        VideoGamesQuestion2Answer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(VideoGamesQuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(VideoGamesQuizPageQuestion2.this, VideoGamesQuizPageQuestion2.class));
             }
         });
 
-        Button VideoGamesQuestion2answer3 = (Button)findViewById(R.id.button_VideoGamesQuestion2Answer3);
-        VideoGamesQuestion2answer3.setOnClickListener(new View.OnClickListener() {
+        Button VideoGamesQuestion2Answer3 = (Button)findViewById(R.id.button_VideoGamesQuestion2Answer3);
+        VideoGamesQuestion2Answer3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(VideoGamesQuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(VideoGamesQuizPageQuestion2.this, VideoGamesQuizPageQuestion2.class));
             }
         });
 
-        Button VideoGamesQuestion2answer4 = (Button)findViewById(R.id.button_VideoGamesQuestion2Answer4);
-        VideoGamesQuestion2answer4.setOnClickListener(new View.OnClickListener() {
+        Button VideoGamesQuestion2Answer4 = (Button)findViewById(R.id.button_VideoGamesQuestion2Answer4);
+        VideoGamesQuestion2Answer4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(VideoGamesQuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(VideoGamesQuizPageQuestion2.this, VideoGamesQuizPageQuestion3.class));
             }
         });
     }

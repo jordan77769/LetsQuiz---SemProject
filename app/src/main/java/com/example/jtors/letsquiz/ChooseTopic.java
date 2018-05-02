@@ -13,35 +13,43 @@ public class ChooseTopic extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_topic);
 
-        Button topic1 = (Button)findViewById(R.id.button_Topic1);
-        topic1.setOnClickListener(new View.OnClickListener() {
+        Button Topic1 = (Button)findViewById(R.id.button_Topic1);
+        Topic1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ChooseTopic.this, QuizPage.class));
             }
         });
 
-        Button topic2 = (Button)findViewById(R.id.button_Topic2);
-        topic2.setOnClickListener(new View.OnClickListener() {
+        Button Topic2 = (Button)findViewById(R.id.button_Topic2);
+        Topic2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ChooseTopic.this, DCQuizPage.class));
             }
         });
 
-        Button topic3 = (Button)findViewById(R.id.button_Topic3);
-        topic3.setOnClickListener(new View.OnClickListener() {
+        Button Topic3 = (Button)findViewById(R.id.button_Topic3);
+        Topic3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ChooseTopic.this, StarWarsQuizPage.class));
             }
         });
 
-        Button topic4 = (Button)findViewById(R.id.button_Topic4);
-        topic4.setOnClickListener(new View.OnClickListener() {
+        Button Topic4 = (Button)findViewById(R.id.button_Topic4);
+        Topic4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ChooseTopic.this, VideoGames.class));
+            }
+        });
+
+        Button goBack = (Button)findViewById(R.id.button_GoBack);
+        goBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ChooseTopic.this, MainPage.class));
             }
         });
     }

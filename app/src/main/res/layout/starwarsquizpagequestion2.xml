@@ -37,12 +37,12 @@
         android:id="@+id/button_StarWarsQuestion2Answer2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="68dp"
+        android:layout_marginEnd="36dp"
         android:layout_marginTop="52dp"
         android:text="@string/button_Topic3Question2Answer2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_StarWarsQuestion2"
-        android:layout_marginRight="68dp" />
+        android:layout_marginRight="36dp" />
 
     <Button
         android:id="@+id/button_StarWarsQuestion2Answer3"

@@ -11,13 +11,13 @@ public class DCQuizPageQuestion2 extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_page);
+        setContentView(R.layout.dcquizpagequestion2);
 
         Button DCQuestion2Answer1 = (Button)findViewById(R.id.button_DCQuestion2Answer1);
         DCQuestion2Answer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPageQuestion2.this, DCQuizPageQuestion2.class));
             }
         });
 
@@ -25,7 +25,7 @@ public class DCQuizPageQuestion2 extends AppCompatActivity {
         DCQuestion2Answer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPageQuestion2.this, DCQuizPageQuestion2.class));
             }
         });
 
@@ -33,7 +33,7 @@ public class DCQuizPageQuestion2 extends AppCompatActivity {
         DCQuestion2Answer3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPageQuestion2.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPageQuestion2.this, DCQuizPageQuestion2.class));
             }
         });
 

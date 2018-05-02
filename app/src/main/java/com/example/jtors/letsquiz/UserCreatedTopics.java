@@ -17,7 +17,7 @@ public class UserCreatedTopics extends AppCompatActivity {
         userTopic1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(UserCreatedTopics.this, QuizPage.class));
+                startActivity(new Intent(UserCreatedTopics.this, UserTopic1.class));
             }
         });
 
@@ -25,7 +25,7 @@ public class UserCreatedTopics extends AppCompatActivity {
         userTopic2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(UserCreatedTopics.this, QuizPage.class));
+                startActivity(new Intent(UserCreatedTopics.this, UserTopic2.class));
             }
         });
 
@@ -33,7 +33,7 @@ public class UserCreatedTopics extends AppCompatActivity {
         userTopic3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(UserCreatedTopics.this, QuizPage.class));
+                startActivity(new Intent(UserCreatedTopics.this, UserTopic3.class));
             }
         });
 
@@ -41,7 +41,15 @@ public class UserCreatedTopics extends AppCompatActivity {
         userTopic4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(UserCreatedTopics.this, QuizPage.class));
+                startActivity(new Intent(UserCreatedTopics.this, UserTopic4.class));
+            }
+        });
+
+        Button goBack = (Button)findViewById(R.id.button_GoBack);
+        goBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(UserCreatedTopics.this, MainPage.class));
             }
         });
     }

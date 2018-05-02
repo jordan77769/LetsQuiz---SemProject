@@ -12,6 +12,11 @@
     <string name="button_changeUser">Change Username</string>
     <string name="button_changePassword">Change Password</string>
     <string name="button_goBack">Go Back</string>
+    <string name="lblChangeUser">Change Username</string>
+    <string name="lblChangePassword">Change Password</string>
+    <string name="txtEnterUser">Enter Username</string>
+    <string name="txtEnterPassword">Enter Password</string>
+
 
     <string name="lblChooseATopic">Choose A Topic</string>
     <string name="button_Topic1">Marvel</string>
@@ -20,10 +25,10 @@
     <string name="button_Topic4">Video Games</string>
 
     <string name="textView_UserCreatedTopics">Choose a User-Created Topic</string>
-    <string name="button_UserTopic1">User Topic 1</string>
-    <string name="button_UserTopic2">User Topic 2</string>
-    <string name="button_UserTopic3">User Topic 3</string>
-    <string name="button_UserTopic4">User Topic 4</string>
+    <string name="button_UserTopic1">Batman</string>
+    <string name="button_UserTopic2">Lord of the Rings</string>
+    <string name="button_UserTopic3">Harry Potter</string>
+    <string name="button_UserTopic4">Back to the Future</string>
 
     <string name="button_Topic1Question1Answer1">Batman</string>
     <string name="button_Topic1Question1Answer2">Iron-Man</string>
@@ -44,7 +49,7 @@
     <string name="textView_Question2Topic1">Which of these characters is Captain America?</string>
     <string name="textView_Question3Topic1">Which team does Wolverine belong to?</string>
 
-    <string name="textView_DCQuestion1">Which is not a member of the Justice League?</string>
+    <string name="textView_DCQuestion1">Which is NOT a member of the Justice League?</string>
     <string name="textView_DCQuestion2">Which of these characters is Batman?</string>
     <string name="textView_DCQuestion3">Who is Clark Kents\' alter-ego?</string>
 
@@ -100,4 +105,84 @@
     <string name="button_Topic4Question3Answer2">Master Chief</string>
     <string name="button_Topic4Question3Answer3">Ratchet</string>
     <string name="button_Topic4Question3Answer4">Sam Fisher</string>
+
+
+    <string name="textView_UserTopic1Question1">What is Batman\s alter-ego?</string>
+    <string name="textView_UserTopic1Question2">Which of these villains are a Batman villain?</string>
+    <string name="textView_UserTopic1Question3">Who is Batman\s sidekick?</string>
+
+    <string name="button_UserTopic1Question1Answer1">Clark Kent</string>
+    <string name="button_UserTopic1Question1Answer2">Bruce Wayne</string>
+    <string name="button_UserTopic1Question1Answer3">Oliver Queen</string>
+    <string name="button_UserTopic1Question1Answer4">Bruce Banner</string>
+
+    <string name="button_UserTopic1Question2Answer1">Vulture</string>
+    <string name="button_UserTopic1Question2Answer2">General Zod</string>
+    <string name="button_UserTopic1Question2Answer3">Riddler</string>
+    <string name="button_UserTopic1Question2Answer4">Loki</string>
+
+    <string name="button_UserTopic1Question3Answer1">Robin</string>
+    <string name="button_UserTopic1Question3Answer2">Beast-Boy</string>
+    <string name="button_UserTopic1Question3Answer3">Cyborg</string>
+    <string name="button_UserTopic1Question3Answer4">Batboy</string>
+
+    <string name="textView_UserTopic2Question1">What is the species of Frodo Baggins?</string>
+    <string name="textView_UserTopic2Question2">Who says "One does not simply walk into Mordor."?</string>
+    <string name="textView_UserTopic2Question3">Where is the Shire did Bilbo live?</string>
+
+    <string name="button_UserTopic2Question1Answer1">Dwarf</string>
+    <string name="button_UserTopic2Question1Answer2">Elf</string>
+    <string name="button_UserTopic2Question1Answer3">Hobbit</string>
+    <string name="button_UserTopic2Question1Answer4">Orc</string>
+
+    <string name="button_UserTopic2Question2Answer1">Aragorn</string>
+    <string name="button_UserTopic2Question2Answer2">Boromir</string>
+    <string name="button_UserTopic2Question2Answer3">Faramir</string>
+    <string name="button_UserTopic2Question2Answer4">Elrond</string>
+
+    <string name="button_UserTopic2Question3Answer1">Bag End</string>
+    <string name="button_UserTopic2Question3Answer2">Woodhall</string>
+    <string name="button_UserTopic2Question3Answer3">Bywater</string>
+    <string name="button_UserTopic2Question3Answer4">Baggins Way</string>
+
+    <string name="textView_UserTopic3Question1">What house is Harry Potter sorted in?</string>
+    <string name="textView_UserTopic3Question2">What house is Draco Malfoy sorted in?</string>
+    <string name="textView_UserTopic3Question3">Who is the Headmaster of Hogwarts?</string>
+
+    <string name="button_UserTopic3Question1Answer1">Slytherin</string>
+    <string name="button_UserTopic3Question1Answer2">Gryffindor</string>
+    <string name="button_UserTopic3Question1Answer3">Ravenclaw</string>
+    <string name="button_UserTopic3Question1Answer4">Hufflepuff</string>
+
+    <string name="button_UserTopic3Question2Answer1">Gryffindor</string>
+    <string name="button_UserTopic3Question2Answer2">Ravenclaw</string>
+    <string name="button_UserTopic3Question2Answer3">Slytherin</string>
+    <string name="button_UserTopic3Question2Answer4">Hufflepuff</string>
+
+    <string name="button_UserTopic3Question3Answer1">Gandalf</string>
+    <string name="button_UserTopic3Question3Answer2">Dumbledore</string>
+    <string name="button_UserTopic3Question3Answer3">Elrond</string>
+    <string name="button_UserTopic3Question3Answer4">Saruman</string>
+
+    <string name="textView_UserTopic4Question1">What year did Marty travel to in Back to the Future?</string>
+    <string name="textView_UserTopic4Question2">How many gigawatts is needed to power the DeLorean?</string>
+    <string name="textView_UserTopic4Question3">What year did Marty travel to in Back to the Future Part 3?</string>
+
+    <string name="button_UserTopic4Question1Answer1">2012</string>
+    <string name="button_UserTopic4Question1Answer2">1999</string>
+    <string name="button_UserTopic4Question1Answer3">1955</string>
+    <string name="button_UserTopic4Question1Answer4">2018</string>
+
+    <string name="button_UserTopic4Question2Answer1">1.81</string>
+    <string name="button_UserTopic4Question2Answer2">1.21</string>
+    <string name="button_UserTopic4Question2Answer3">1.41</string>
+    <string name="button_UserTopic4Question2Answer4">1.61</string>
+
+    <string name="button_UserTopic4Question3Answer1">1995</string>
+    <string name="button_UserTopic4Question3Answer2">1885</string>
+    <string name="button_UserTopic4Question3Answer3">1985</string>
+    <string name="button_UserTopic4Question3Answer4">2025</string>
+
+
+
 </resources>

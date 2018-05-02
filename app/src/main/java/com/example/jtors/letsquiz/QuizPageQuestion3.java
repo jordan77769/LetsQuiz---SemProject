@@ -10,37 +10,37 @@ import android.widget.Button;
 public class QuizPageQuestion3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_page);
+        setContentView(R.layout.quizpagequestion3);
 
-        Button Question3answer1 = (Button) findViewById(R.id.button_Question3Answer1);
-        Question3answer1.setOnClickListener(new View.OnClickListener() {
+        Button Question3Answer1 = (Button) findViewById(R.id.button_Question3Answer1);
+        Question3Answer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(QuizPageQuestion3.this, QuizPage.class));
+                startActivity(new Intent(QuizPageQuestion3.this, QuizPageQuestion3.class));
             }
         });
 
-        Button Question3answer2 = (Button) findViewById(R.id.button_Question3Answer2);
-        Question3answer2.setOnClickListener(new View.OnClickListener() {
+        Button Question3Answer2 = (Button) findViewById(R.id.button_Question3Answer2);
+        Question3Answer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(QuizPageQuestion3.this, QuizPage.class));
+                startActivity(new Intent(QuizPageQuestion3.this, QuizPageQuestion3.class));
             }
         });
 
-        Button Question3answer3 = (Button) findViewById(R.id.button_Question3Answer3);
-        Question3answer3.setOnClickListener(new View.OnClickListener() {
+        Button Question3Answer3 = (Button) findViewById(R.id.button_Question3Answer3);
+        Question3Answer3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(QuizPageQuestion3.this, QuizPage.class));
+                startActivity(new Intent(QuizPageQuestion3.this, ChooseTopic.class));
             }
         });
 
-        Button Question3answer4 = (Button) findViewById(R.id.button_Question3Answer4);
-        Question3answer4.setOnClickListener(new View.OnClickListener() {
+        Button Question3Answer4 = (Button) findViewById(R.id.button_Question3Answer4);
+        Question3Answer4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(QuizPageQuestion3.this, QuizPage.class));
+                startActivity(new Intent(QuizPageQuestion3.this, QuizPageQuestion3.class));
             }
         });
     }

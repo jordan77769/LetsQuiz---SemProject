@@ -11,37 +11,37 @@ public class DCQuizPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_page);
+        setContentView(R.layout.dcquizpage);
 
-        Button DCanswer1 = (Button)findViewById(R.id.button_DCAnswer1);
-        DCanswer1.setOnClickListener(new View.OnClickListener() {
+        Button DCAnswer1 = (Button)findViewById(R.id.button_DCAnswer1);
+        DCAnswer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPage.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPage.this, DCQuizPage.class));
             }
         });
 
-        Button DCanswer2 = (Button)findViewById(R.id.button_DCAnswer2);
-        DCanswer2.setOnClickListener(new View.OnClickListener() {
+        Button DCAnswer2 = (Button)findViewById(R.id.button_DCAnswer2);
+        DCAnswer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPage.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPage.this, DCQuizPage.class));
             }
         });
 
-        Button DCanswer3 = (Button)findViewById(R.id.button_DCAnswer3);
-        DCanswer3.setOnClickListener(new View.OnClickListener() {
+        Button DCAnswer3 = (Button)findViewById(R.id.button_DCAnswer3);
+        DCAnswer3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(DCQuizPage.this, DCQuizPageQuestion2.class));
             }
         });
 
-        Button DCanswer4 = (Button)findViewById(R.id.button_DCAnswer4);
-        DCanswer4.setOnClickListener(new View.OnClickListener() {
+        Button DCAnswer4 = (Button)findViewById(R.id.button_DCAnswer4);
+        DCAnswer4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPage.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPage.this, DCQuizPage.class));
             }
         });
     }

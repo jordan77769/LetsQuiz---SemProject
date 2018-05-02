@@ -11,13 +11,13 @@ public class DCQuizPageQuestion3 extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_page);
+        setContentView(R.layout.dcquizpagequestion3);
 
         Button DCQuestion3Answer1 = (Button)findViewById(R.id.button_DCQuestion3Answer1);
         DCQuestion3Answer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPageQuestion3.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPageQuestion3.this, DCQuizPageQuestion3.class));
             }
         });
 
@@ -25,7 +25,7 @@ public class DCQuizPageQuestion3 extends AppCompatActivity {
         DCQuestion3Answer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPageQuestion3.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPageQuestion3.this, DCQuizPageQuestion3.class));
             }
         });
 
@@ -33,7 +33,7 @@ public class DCQuizPageQuestion3 extends AppCompatActivity {
         DCQuestion3Answer3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPageQuestion3.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPageQuestion3.this, ChooseTopic.class));
             }
         });
 
@@ -41,7 +41,7 @@ public class DCQuizPageQuestion3 extends AppCompatActivity {
         DCQuestion3Answer4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DCQuizPageQuestion3.this, QuizPage.class));
+                startActivity(new Intent(DCQuizPageQuestion3.this, DCQuizPageQuestion3.class));
             }
         });
     }

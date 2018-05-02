@@ -28,6 +28,31 @@ public class UserAccountPage extends AppCompatActivity {
             }
         });
 
+        Button viewQuizzes = (Button)findViewById(R.id.button_viewQuizzes);
+        viewQuizzes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(UserAccountPage.this, UserCreatedTopics.class));
+            }
+        });
+
+        Button changeUsername = (Button)findViewById(R.id.button_changeUser);
+        changeUsername.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(UserAccountPage.this, ChangeUsername.class));
+            }
+        });
+
+        Button changePassword = (Button)findViewById(R.id.button_changePassword);
+        changePassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(UserAccountPage.this, ChangePassword.class));
+            }
+        });
+
+
         String filename = "myfile";
         String fileContents = "Hello user!";
         FileOutputStream outputStream;

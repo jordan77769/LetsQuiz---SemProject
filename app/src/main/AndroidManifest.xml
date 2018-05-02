@@ -20,18 +20,32 @@
         <activity android:name=".UserAccountPage" />
         <activity android:name=".ChooseTopic" />
         <activity android:name=".UserCreatedTopics" />
-        <activity android:name=".QuizPage"></activity>
-        <activity android:name=".VideoGames"></activity>
-        <activity android:name=".QuizPageQuestion2"></activity>
-        <activity android:name=".DCQuizPage"></activity>
-        <activity android:name=".QuizPageQuestion3"></activity>
-        <activity android:name=".DCQuizPageQuestion2"></activity>
-        <activity android:name=".DCQuizPageQuestion3"></activity>
-        <activity android:name=".StarWarsQuizPage"></activity>
-        <activity android:name=".StarWarsQuizPageQuestion2"></activity>
-        <activity android:name=".StarWarsQuizPageQuestion3"></activity>
-        <activity android:name=".VideoGamesQuizPageQuestion2"></activity>
-        <activity android:name=".VideoGamesQuizPageQuestion3"></activity>
+        <activity android:name=".QuizPage" />
+        <activity android:name=".VideoGames" />
+        <activity android:name=".QuizPageQuestion2" />
+        <activity android:name=".DCQuizPage" />
+        <activity android:name=".QuizPageQuestion3" />
+        <activity android:name=".DCQuizPageQuestion2" />
+        <activity android:name=".DCQuizPageQuestion3" />
+        <activity android:name=".StarWarsQuizPage" />
+        <activity android:name=".StarWarsQuizPageQuestion2" />
+        <activity android:name=".StarWarsQuizPageQuestion3" />
+        <activity android:name=".VideoGamesQuizPageQuestion2" />
+        <activity android:name=".VideoGamesQuizPageQuestion3" />
+        <activity android:name=".UserTopic1" />
+        <activity android:name=".UserTopic1Question2" />
+        <activity android:name=".UserTopic1Question3" />
+        <activity android:name=".UserTopic2"/>
+        <activity android:name=".UserTopic2Question2"/>
+        <activity android:name=".UserTopic2Question3"/>
+        <activity android:name=".UserTopic3"/>
+        <activity android:name=".UserTopic3Question2"/>
+        <activity android:name=".UserTopic3Question3"/>
+        <activity android:name=".UserTopic4"/>
+        <activity android:name=".UserTopic4Question2"/>
+        <activity android:name=".UserTopic4Question3"/>
+        <activity android:name=".ChangeUsername"/>
+        <activity android:name=".ChangePassword"/>
 
 
     </application>

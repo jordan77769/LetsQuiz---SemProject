@@ -11,37 +11,37 @@ public class StarWarsQuizPage  extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_page);
+        setContentView(R.layout.starwarsquizpage);
 
-        Button StarWarsQuestion1answer1 = (Button)findViewById(R.id.button_StarWarsQuestion1Answer1);
-        StarWarsQuestion1answer1.setOnClickListener(new View.OnClickListener() {
+        Button StarWarsQuestion1Answer1 = (Button)findViewById(R.id.button_StarWarsQuestion1Answer1);
+        StarWarsQuestion1Answer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(StarWarsQuizPage.this, QuizPage.class));
+                startActivity(new Intent(StarWarsQuizPage.this, StarWarsQuizPage.class));
             }
         });
 
-        Button StarWarsQuestion1answer2 = (Button)findViewById(R.id.button_StarWarsQuestion1Answer2);
-        StarWarsQuestion1answer2.setOnClickListener(new View.OnClickListener() {
+        Button StarWarsQuestion1Answer2 = (Button)findViewById(R.id.button_StarWarsQuestion1Answer2);
+        StarWarsQuestion1Answer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(StarWarsQuizPage.this, QuizPage.class));
+                startActivity(new Intent(StarWarsQuizPage.this, StarWarsQuizPage.class));
             }
         });
 
-        Button StarWarsQuestion1answer3 = (Button)findViewById(R.id.button_StarWarsQuestion1Answer3);
-        StarWarsQuestion1answer3.setOnClickListener(new View.OnClickListener() {
+        Button StarWarsQuestion1Answer3 = (Button)findViewById(R.id.button_StarWarsQuestion1Answer3);
+        StarWarsQuestion1Answer3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(StarWarsQuizPage.this, StarWarsQuizPageQuestion2.class));
             }
         });
 
-        Button StarWarsQuestion1answer4 = (Button)findViewById(R.id.button_StarWarsQuestion1Answer4);
-        StarWarsQuestion1answer4.setOnClickListener(new View.OnClickListener() {
+        Button StarWarsQuestion1Answer4 = (Button)findViewById(R.id.button_StarWarsQuestion1Answer4);
+        StarWarsQuestion1Answer4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(StarWarsQuizPage.this, QuizPage.class));
+                startActivity(new Intent(StarWarsQuizPage.this, StarWarsQuizPage.class));
             }
         });
     }
